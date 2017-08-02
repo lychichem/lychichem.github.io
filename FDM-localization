@@ -13,7 +13,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">FDM-localization</h1>
-      <h2 class="project-tagline"></h2>
+      <h2 class="project-tagline">The official zh-CN localization repo of FDM</h2>
       
         <a href="https://github.com/lychichem/FDM-localization" class="btn">View on GitHub</a>
         <a href="https://github.com/lychichem/FDM-localization/blob/master/fdm_zh.qm?raw=true" class="btn">Download Binary language File ready for use</a>
