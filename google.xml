@@ -5,8 +5,5 @@
     <Image type="image/icon" width="16" height="16">https://www.google.com/favicon.ico</Image>
     <Url type="application/opensearchdescription+xml" template="https://www.google.com/"/>
     <Url type="application/x-suggestions+json" template="https://www.google.com/complete/search?q={searchTerms}" rel="suggestions"/>
-    <Url type="text/html" xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/" template="https://www.google.com/search?q={searchTerms}">
-        <Param name="ie" value="utf-8"/>
-        <Param name="oe" value="utf-8"/>
-    </url>
+    <Url type="text/html" xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/" template="https://www.google.com/search?q={searchTerms}"/>
 </OpenSearchDescription>
