@@ -4,6 +4,6 @@
     <Description>Google Search</Description>
     <Image type="image/icon" width="16" height="16">https://www.google.com/favicon.ico</Image>
     <Url type="application/opensearchdescription+xml" template="https://www.google.com/searchdomaincheck?format=opensearch" rel="self"/>
-    <Url type="application/x-suggestions+json" template="https://www.google.com/complete/search?q={searchTerms}&inputencoding={inputEncoding}&outputencoding={outputEncoding}" rel="suggestions"/>
-    <Url type="text/html" xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/" template="https://www.google.com/search?q={searchTerms}&ie={inputEncoding?}&oe={outputEncoding?}"/>
+    <Url type="application/x-suggestions+json" template="https://www.google.com/complete/search?q={searchTerms}&amp;inputencoding={inputEncoding}&amp;outputencoding={outputEncoding}" rel="suggestions"/>
+    <Url type="text/html" xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/" template="https://www.google.com/search?q={searchTerms}&amp;ie={inputEncoding?}&amp;oe={outputEncoding?}"/>
 </OpenSearchDescription>
