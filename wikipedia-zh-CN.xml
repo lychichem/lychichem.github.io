@@ -8,7 +8,7 @@
   <Param name="action" value="opensearch"/>
   <Param name="search" value="{searchTerms}"/>
 </Url>
-<Url type="text/html" method="GET" template="https://zh.wikipedia.org/wiki/Special:搜索"
+<Url type="text/html" method="GET" xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/" template="https://zh.wikipedia.org/wiki/Special:搜索"
      resultdomain="wikipedia.org" rel="searchform">
   <Param name="search" value="{searchTerms}"/>
 </Url>
