@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>维基百科</ShortName>
+<Description>维基百科，自由的百科全书</Description>
+<Image type="image/icon" width="16" height="16">https://zh.wikipedia.org/favicon.ico</Image>
+<Url type="application/opensearchdescription+xml" template="https://zh.wikipedia.org/" rel="self"/><Url type="application/x-suggestions+json" method="GET" template="https://zh.wikipedia.org/w/api.php">
+  <Param name="action" value="opensearch"/>
+  <Param name="search" value="{searchTerms}"/>
+</Url>
+<Url type="text/html" method="GET" template="https://zh.wikipedia.org/wiki/Special:搜索"
+     resultdomain="wikipedia.org" rel="searchform">
+  <Param name="search" value="{searchTerms}"/>
+</Url>
+</OpenSearchDescription>
